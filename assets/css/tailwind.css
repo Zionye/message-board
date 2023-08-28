@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .required-title {
+    @apply flex justify-start items-center;
+  }
+  .required-cont {
+    @apply my-2 pl-4;
+  }
+  .inp {
+    @apply w-full placeholder-gray-400 text-sm focus:outline-none;
+  }
+  .tbtn {
+    @apply border border-indigo-400 rounded-2xl px-2 py-0.5;
+  }
+  .tbtn-in {
+    @apply bg-indigo-400 text-white;
+  }
+  .sum-btn {
+    @apply flex-1 rounded font-semibold py-2 border-2;
+  }
+  .msg-a {
+    @apply flex justify-center items-center mt-6 h-11 border-y;
+  }
+}
